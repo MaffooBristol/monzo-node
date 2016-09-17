@@ -1,5 +1,5 @@
 {
-  "name": "monzo-node",
+  "name": "monzo",
   "version": "0.0.1",
   "description": "Unofficial (for now) node client for Monzo bank.",
   "main": "index.js",
