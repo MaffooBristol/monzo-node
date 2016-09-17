@@ -1,0 +1,36 @@
+{
+  "name": "monzo-node",
+  "version": "0.0.1",
+  "description": "Unofficial (for now) node client for Monzo bank.",
+  "main": "index.js",
+  "scripts": {
+    "test": "run-p test:**",
+    "test:lint": "eslint ./src --ext .js --ignore-path .gitignore --ignore-pattern build --cache"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaffooBristol/monzo-node.git"
+  },
+  "keywords": [
+    "monzo",
+    "node",
+    "bank",
+    "api"
+  ],
+  "author": "Matt Fletcher",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MaffooBristol/monzo-node/issues"
+  },
+  "homepage": "https://github.com/MaffooBristol/monzo-node#readme",
+  "devDependencies": {
+    "eslint": "^3.5.0",
+    "eslint-config-airbnb": "^11.1.0",
+    "eslint-plugin-import": "^1.15.0",
+    "eslint-plugin-jsx-a11y": "^2.2.2",
+    "eslint-plugin-react": "^6.2.2"
+  },
+  "dependencies": {
+    "npm-run-all": "^3.1.0"
+  }
+}

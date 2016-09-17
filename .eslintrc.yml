@@ -1,0 +1,5 @@
+extends: airbnb
+plugins:
+  - import
+rules:
+  react/require-extension: off
